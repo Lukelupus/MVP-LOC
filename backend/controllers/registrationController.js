@@ -58,10 +58,5 @@ const logInClient = asyncHandler(async (req, res) => {
 
   res.json({ message: "Usuário logado com sucesso!" });
 });
-// route privada para usuário
 
-const getMe = asyncHandler(async (req, res) => {
-  res.status(200).json(req.client);
-});
-
-export { registerClient, logInClient, getMe };
+export { registerClient, logInClient };
