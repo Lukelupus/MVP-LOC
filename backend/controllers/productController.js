@@ -12,8 +12,13 @@ const getProducts = asyncHandler(async (req, res) => {
 
 const getProductId = asyncHandler(async (req, res) => {
   const product = await Product.find({
-    name: req.query.id,
+    id: req.query.id,
   });
+  if (!product) {
+    res.status(400);
+    throw new Error("Produto não encontrado");
+  }
+
   res.status(201).json(product);
 });
 

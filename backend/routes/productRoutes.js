@@ -10,7 +10,7 @@ const router = express.Router();
 // Rota para Produtos
 
 router.route("/").get(getProducts);
-router.route(":id").get(getProductId);
+router.route("/:id").get(getProductId);
 router.route("/create").post(postProduct);
 
 export default router;
