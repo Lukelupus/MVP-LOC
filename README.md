@@ -45,7 +45,7 @@ O mesmo utiliza as bibliotecas/frameworks:
 
 Ele rodará no modo desenvolvedor.\
 O frontend rodará em [http://localhost:3000](http://localhost:3000). Uma janela deve abrir automaticamente para visualizar o projeto. CAso não abra, basta apenas acessar o endereço.
-O backend rodará em [http://localhost:5000](http://localhost:8000).
+O backend rodará em [http://localhost:8000](http://localhost:8000).
 
 
 ## RestAPI:
