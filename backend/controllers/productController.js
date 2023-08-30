@@ -11,8 +11,8 @@ const getProducts = asyncHandler(async (req, res) => {
 // GET Method for single product
 
 const getProductId = asyncHandler(async (req, res) => {
-  const product = await Product.find({
-    id: req.query.id,
+  const product = await Product.findById({
+    _id: req.params.id,
   });
   if (!product) {
     res.status(400);
