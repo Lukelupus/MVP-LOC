@@ -40,7 +40,8 @@ O mesmo utiliza as bibliotecas/frameworks:
 #Frontend:
 ### `cd frontend`
 ### `npm install`
-4) Inicie o aplicativo:
+4) Volte a pasta inicial e Inicie o aplicativo:
+### `cd ..`
 ### `npm run dev`
 
 Ele rodará no modo desenvolvedor.\
